@@ -1,14 +1,14 @@
 //
-//  DetailTableViewCell.m
+//  OrderTableViewCell.m
 //  convergence
 //
-//  Created by admin on 2017/9/8.
+//  Created by admin on 2017/9/19.
 //  Copyright © 2017年 adminadmineducation. All rights reserved.
 //
 
-#import "DetailTableViewCell.h"
+#import "OrderTableViewCell.h"
 
-@implementation DetailTableViewCell
+@implementation OrderTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

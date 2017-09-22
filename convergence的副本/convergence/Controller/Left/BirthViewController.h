@@ -1,13 +1,13 @@
 //
-//  ExpDetailViewController.h
+//  BirthViewController.h
 //  convergence
 //
-//  Created by admin on 2017/9/14.
+//  Created by admin on 2017/9/21.
 //  Copyright © 2017年 adminadmineducation. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ExpDetailViewController : UIViewController
+@interface BirthViewController : UIViewController
 
 @end
