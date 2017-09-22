@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TBU-FM-rGb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gene View Controller-->
+        <scene sceneID="js3-Eh-a2f">
+            <objects>
+                <viewController id="xCb-bY-1ag" customClass="GeneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mar-wq-YyO"/>
+                        <viewControllerLayoutGuide type="bottom" id="jWf-nz-e02"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="scr-cm-IEj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOY-Jc-zI6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jh5-zf-ZmP">
+                                        <rect key="frame" x="107.5" y="253.5" width="160" height="160"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Jh5-zf-ZmP" secondAttribute="height" multiplier="1:1" id="1Ag-ud-9xd"/>
+                                            <constraint firstAttribute="height" constant="160" id="8iI-Re-WpS"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.48627450979999998" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Jh5-zf-ZmP" firstAttribute="centerY" secondItem="lOY-Jc-zI6" secondAttribute="centerY" id="Ax0-mb-mDg"/>
+                                    <constraint firstItem="Jh5-zf-ZmP" firstAttribute="centerX" secondItem="lOY-Jc-zI6" secondAttribute="centerX" id="oUr-PT-meZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lOY-Jc-zI6" secondAttribute="bottom" id="RSe-Ju-nPo"/>
+                            <constraint firstItem="lOY-Jc-zI6" firstAttribute="top" secondItem="scr-cm-IEj" secondAttribute="top" id="ely-bo-F90"/>
+                            <constraint firstAttribute="trailing" secondItem="lOY-Jc-zI6" secondAttribute="trailing" id="jAB-Oh-SWY"/>
+                            <constraint firstItem="lOY-Jc-zI6" firstAttribute="leading" secondItem="scr-cm-IEj" secondAttribute="leading" id="xhP-qV-nts"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8ei-B7-Xui"/>
+                    <connections>
+                        <outlet property="imageView" destination="Jh5-zf-ZmP" id="owR-4V-Sjk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFv-zW-ob9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5088.8000000000002" y="158.77061469265368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QBa-8N-aOY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TBU-FM-rGb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zAQ-He-rwJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xCb-bY-1ag" kind="relationship" relationship="rootViewController" id="R02-u5-Kt3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blL-wS-1Ei" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4149.6000000000004" y="158.77061469265368"/>
+        </scene>
+    </scenes>
+</document>
