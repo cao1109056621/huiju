@@ -14,6 +14,7 @@
 		843531401F615F5900F8494F /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843531371F615F5900F8494F /* SDCollectionViewCell.m */; };
 		843531411F615F5900F8494F /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843531391F615F5900F8494F /* SDCycleScrollView.m */; };
 		843531421F615F5900F8494F /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435313B1F615F5900F8494F /* UIView+SDExtension.m */; };
+		8438AAC61F750D5D0053D543 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438AAC51F750D5D0053D543 /* DetailTableViewCell.m */; };
 		848D3F441F5525310043C9BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D3F431F5525310043C9BD /* main.m */; };
 		848D3F471F5525310043C9BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D3F461F5525310043C9BD /* AppDelegate.m */; };
 		848D3F521F5525310043C9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848D3F511F5525310043C9BD /* Assets.xcassets */; };
@@ -117,6 +118,8 @@
 		843531391F615F5900F8494F /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		8435313A1F615F5900F8494F /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		8435313B1F615F5900F8494F /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		8438AAC41F750D560053D543 /* DetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		8438AAC51F750D5D0053D543 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
 		848D3F3F1F5525310043C9BD /* convergence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convergence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848D3F431F5525310043C9BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		848D3F451F5525310043C9BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -510,6 +513,8 @@
 		84D1C5801F6CC4D800B85B2C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8438AAC41F750D560053D543 /* DetailTableViewCell.h */,
+				8438AAC51F750D5D0053D543 /* DetailTableViewCell.m */,
 				84D1C5891F6CC4D800B85B2C /* Main.storyboard */,
 				84D1C5851F6CC4D800B85B2C /* Homepage.storyboard */,
 			);
@@ -862,6 +867,7 @@
 				848D3FB41F5526DF0043C9BD /* MD5DataSigner.m in Sources */,
 				84D1C5751F6CC4C900B85B2C /* ExpModel.m in Sources */,
 				84D1C5C41F6CC4E100B85B2C /* LeftViewController.m in Sources */,
+				8438AAC61F750D5D0053D543 /* DetailTableViewCell.m in Sources */,
 				848D3F7C1F5526C90043C9BD /* BasicEncodingRules.m in Sources */,
 				848D3FB51F5526DF0043C9BD /* NSDataEx.m in Sources */,
 				84D1C5781F6CC4C900B85B2C /* Order.m in Sources */,
