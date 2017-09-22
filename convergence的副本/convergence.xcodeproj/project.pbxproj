@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		840140751F750F7F0080DFBA /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840140731F750F7F0080DFBA /* ActivityTableViewCell.m */; };
-		840140761F750F7F0080DFBA /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840140741F750F7F0080DFBA /* My.storyboard */; };
+		8401407B1F751A860080DFBA /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840140791F751A860080DFBA /* ActivityTableViewCell.m */; };
+		8401407C1F751A860080DFBA /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401407A1F751A860080DFBA /* My.storyboard */; };
+		840140851F751AEE0080DFBA /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401407E1F751AEE0080DFBA /* about.storyboard */; };
+		840140861F751AEE0080DFBA /* advice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401407F1F751AEE0080DFBA /* advice.storyboard */; };
+		840140871F751AEE0080DFBA /* generalize.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840140801F751AEE0080DFBA /* generalize.storyboard */; };
+		840140881F751AEE0080DFBA /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840140811F751AEE0080DFBA /* Left.storyboard */; };
+		840140891F751AEE0080DFBA /* order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840140821F751AEE0080DFBA /* order.storyboard */; };
+		8401408A1F751AEE0080DFBA /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840140841F751AEE0080DFBA /* SettingTableViewCell.m */; };
 		8435313C1F615F5900F8494F /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435312F1F615F5900F8494F /* TAAbstractDotView.m */; };
 		8435313D1F615F5900F8494F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843531311F615F5900F8494F /* TAAnimatedDotView.m */; };
 		8435313E1F615F5900F8494F /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843531331F615F5900F8494F /* TADotView.m */; };
@@ -60,7 +66,6 @@
 		84D1C5951F6CC4D800B85B2C /* FindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C57F1F6CC4D800B85B2C /* FindTableViewCell.m */; };
 		84D1C5981F6CC4D800B85B2C /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1C5851F6CC4D800B85B2C /* Homepage.storyboard */; };
 		84D1C59B1F6CC4D800B85B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1C5891F6CC4D800B85B2C /* Main.storyboard */; };
-		84D1C59D1F6CC4D800B85B2C /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C58D1F6CC4D800B85B2C /* SettingTableViewCell.m */; };
 		84D1C5BF1F6CC4E100B85B2C /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5A41F6CC4E100B85B2C /* FindViewController.m */; };
 		84D1C5C31F6CC4E100B85B2C /* PuchaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5AD1F6CC4E100B85B2C /* PuchaseTableViewController.m */; };
 		84D1C5C41F6CC4E100B85B2C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5B01F6CC4E100B85B2C /* LeftViewController.m */; };
@@ -70,11 +75,6 @@
 		84D1C5CD1F6CC9DC00B85B2C /* ActModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5CC1F6CC9DC00B85B2C /* ActModel.m */; };
 		84D1C5D01F6CCB7000B85B2C /* ActDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5CF1F6CCB7000B85B2C /* ActDetailViewController.m */; };
 		84D1C5D61F6CCD8F00B85B2C /* PayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5D51F6CCD8F00B85B2C /* PayTableViewController.m */; };
-		84D1C5D81F6CCFE700B85B2C /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1C5D71F6CCFE700B85B2C /* Left.storyboard */; };
-		84D1C5DB1F6F681A00B85B2C /* order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1C5DA1F6F681A00B85B2C /* order.storyboard */; };
-		84D1C5DD1F6F686A00B85B2C /* generalize.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1C5DC1F6F686A00B85B2C /* generalize.storyboard */; };
-		84D1C5E11F6F688A00B85B2C /* advice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1C5E01F6F688A00B85B2C /* advice.storyboard */; };
-		84D1C5E31F6F689500B85B2C /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1C5E21F6F689500B85B2C /* about.storyboard */; };
 		84D1C5E61F6F6B8700B85B2C /* OrderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5E51F6F6B8700B85B2C /* OrderTableViewController.m */; };
 		84D1C5EA1F6F6BBF00B85B2C /* GeneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5E91F6F6BBF00B85B2C /* GeneViewController.m */; };
 		84D1C5F01F6F6BD900B85B2C /* AdviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1C5EF1F6F6BD900B85B2C /* AdviceViewController.m */; };
@@ -104,9 +104,16 @@
 
 /* Begin PBXFileReference section */
 		440BE0004877292B44AB639C /* Pods-convergence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convergence.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convergence/Pods-convergence.debug.xcconfig"; sourceTree = "<group>"; };
-		840140721F750F7F0080DFBA /* ActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewCell.h; sourceTree = "<group>"; };
-		840140731F750F7F0080DFBA /* ActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewCell.m; sourceTree = "<group>"; };
-		840140741F750F7F0080DFBA /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		840140781F751A860080DFBA /* ActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewCell.h; sourceTree = "<group>"; };
+		840140791F751A860080DFBA /* ActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewCell.m; sourceTree = "<group>"; };
+		8401407A1F751A860080DFBA /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		8401407E1F751AEE0080DFBA /* about.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
+		8401407F1F751AEE0080DFBA /* advice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = advice.storyboard; sourceTree = "<group>"; };
+		840140801F751AEE0080DFBA /* generalize.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = generalize.storyboard; sourceTree = "<group>"; };
+		840140811F751AEE0080DFBA /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		840140821F751AEE0080DFBA /* order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = order.storyboard; sourceTree = "<group>"; };
+		840140831F751AEE0080DFBA /* SettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		840140841F751AEE0080DFBA /* SettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
 		8435312E1F615F5900F8494F /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
 		8435312F1F615F5900F8494F /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
 		843531301F615F5900F8494F /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
@@ -203,8 +210,6 @@
 		84D1C57F1F6CC4D800B85B2C /* FindTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindTableViewCell.m; sourceTree = "<group>"; };
 		84D1C5851F6CC4D800B85B2C /* Homepage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = "<group>"; };
 		84D1C5891F6CC4D800B85B2C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		84D1C58C1F6CC4D800B85B2C /* SettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
-		84D1C58D1F6CC4D800B85B2C /* SettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
 		84D1C5A31F6CC4E100B85B2C /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
 		84D1C5A41F6CC4E100B85B2C /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
 		84D1C5AC1F6CC4E100B85B2C /* PuchaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuchaseTableViewController.h; sourceTree = "<group>"; };
@@ -223,11 +228,6 @@
 		84D1C5CF1F6CCB7000B85B2C /* ActDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActDetailViewController.m; sourceTree = "<group>"; };
 		84D1C5D41F6CCD8F00B85B2C /* PayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTableViewController.h; sourceTree = "<group>"; };
 		84D1C5D51F6CCD8F00B85B2C /* PayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTableViewController.m; sourceTree = "<group>"; };
-		84D1C5D71F6CCFE700B85B2C /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
-		84D1C5DA1F6F681A00B85B2C /* order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = order.storyboard; sourceTree = "<group>"; };
-		84D1C5DC1F6F686A00B85B2C /* generalize.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = generalize.storyboard; sourceTree = "<group>"; };
-		84D1C5E01F6F688A00B85B2C /* advice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = advice.storyboard; sourceTree = "<group>"; };
-		84D1C5E21F6F689500B85B2C /* about.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
 		84D1C5E41F6F6B8700B85B2C /* OrderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewController.h; sourceTree = "<group>"; };
 		84D1C5E51F6F6B8700B85B2C /* OrderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewController.m; sourceTree = "<group>"; };
 		84D1C5E81F6F6BBF00B85B2C /* GeneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneViewController.h; sourceTree = "<group>"; };
@@ -280,14 +280,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		840140711F750F7F0080DFBA /* My */ = {
+		840140771F751A860080DFBA /* My1 */ = {
 			isa = PBXGroup;
 			children = (
-				840140721F750F7F0080DFBA /* ActivityTableViewCell.h */,
-				840140731F750F7F0080DFBA /* ActivityTableViewCell.m */,
-				840140741F750F7F0080DFBA /* My.storyboard */,
+				840140781F751A860080DFBA /* ActivityTableViewCell.h */,
+				840140791F751A860080DFBA /* ActivityTableViewCell.m */,
+				8401407A1F751A860080DFBA /* My.storyboard */,
 			);
-			path = My;
+			path = My1;
+			sourceTree = "<group>";
+		};
+		8401407D1F751AEE0080DFBA /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				8401407E1F751AEE0080DFBA /* about.storyboard */,
+				8401407F1F751AEE0080DFBA /* advice.storyboard */,
+				840140801F751AEE0080DFBA /* generalize.storyboard */,
+				840140811F751AEE0080DFBA /* Left.storyboard */,
+				840140821F751AEE0080DFBA /* order.storyboard */,
+				840140831F751AEE0080DFBA /* SettingTableViewCell.h */,
+				840140841F751AEE0080DFBA /* SettingTableViewCell.m */,
+			);
+			path = Left;
 			sourceTree = "<group>";
 		};
 		8435312C1F615F5900F8494F /* SDCycleScrollView */ = {
@@ -502,8 +516,8 @@
 			children = (
 				84D1C57A1F6CC4D800B85B2C /* Find */,
 				84D1C5801F6CC4D800B85B2C /* Home */,
-				840140711F750F7F0080DFBA /* My */,
-				84D1C58A1F6CC4D800B85B2C /* Left */,
+				840140771F751A860080DFBA /* My1 */,
+				8401407D1F751AEE0080DFBA /* Left */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -529,17 +543,6 @@
 				84D1C5851F6CC4D800B85B2C /* Homepage.storyboard */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		84D1C58A1F6CC4D800B85B2C /* Left */ = {
-			isa = PBXGroup;
-			children = (
-				84D1C5D91F6F67BF00B85B2C /* list */,
-				84D1C5D71F6CCFE700B85B2C /* Left.storyboard */,
-				84D1C58C1F6CC4D800B85B2C /* SettingTableViewCell.h */,
-				84D1C58D1F6CC4D800B85B2C /* SettingTableViewCell.m */,
-			);
-			path = Left;
 			sourceTree = "<group>";
 		};
 		84D1C5A11F6CC4E100B85B2C /* Controller */ = {
@@ -604,17 +607,6 @@
 				84D1C5BE1F6CC4E100B85B2C /* MapViewController.m */,
 			);
 			path = tools;
-			sourceTree = "<group>";
-		};
-		84D1C5D91F6F67BF00B85B2C /* list */ = {
-			isa = PBXGroup;
-			children = (
-				84D1C5DA1F6F681A00B85B2C /* order.storyboard */,
-				84D1C5DC1F6F686A00B85B2C /* generalize.storyboard */,
-				84D1C5E01F6F688A00B85B2C /* advice.storyboard */,
-				84D1C5E21F6F689500B85B2C /* about.storyboard */,
-			);
-			name = list;
 			sourceTree = "<group>";
 		};
 		84D1C5E71F6F6B8D00B85B2C /* List */ = {
@@ -770,16 +762,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D1C5981F6CC4D800B85B2C /* Homepage.storyboard in Resources */,
-				84D1C5D81F6CCFE700B85B2C /* Left.storyboard in Resources */,
-				84D1C5DD1F6F686A00B85B2C /* generalize.storyboard in Resources */,
 				848D3F551F5525310043C9BD /* LaunchScreen.storyboard in Resources */,
-				84D1C5DB1F6F681A00B85B2C /* order.storyboard in Resources */,
-				84D1C5E31F6F689500B85B2C /* about.storyboard in Resources */,
+				840140871F751AEE0080DFBA /* generalize.storyboard in Resources */,
+				840140881F751AEE0080DFBA /* Left.storyboard in Resources */,
 				84D1C59B1F6CC4D800B85B2C /* Main.storyboard in Resources */,
 				848D3F521F5525310043C9BD /* Assets.xcassets in Resources */,
-				84D1C5E11F6F688A00B85B2C /* advice.storyboard in Resources */,
-				840140761F750F7F0080DFBA /* My.storyboard in Resources */,
+				840140861F751AEE0080DFBA /* advice.storyboard in Resources */,
+				8401407C1F751A860080DFBA /* My.storyboard in Resources */,
+				840140851F751AEE0080DFBA /* about.storyboard in Resources */,
 				84D1C5941F6CC4D800B85B2C /* FindOut.storyboard in Resources */,
+				840140891F751AEE0080DFBA /* order.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,6 +855,7 @@
 				848D3FBF1F5526DF0043C9BD /* NSString+Crypt.m in Sources */,
 				84D1C5CA1F6CC4E100B85B2C /* MapViewController.m in Sources */,
 				84D1C5E61F6F6B8700B85B2C /* OrderTableViewController.m in Sources */,
+				8401408A1F751AEE0080DFBA /* SettingTableViewCell.m in Sources */,
 				848D3FB91F5526DF0043C9BD /* AppAPIClient.m in Sources */,
 				848D3FB41F5526DF0043C9BD /* MD5DataSigner.m in Sources */,
 				84D1C5751F6CC4C900B85B2C /* ExpModel.m in Sources */,
@@ -894,7 +887,6 @@
 				84D1C5761F6CC4C900B85B2C /* FindModel.m in Sources */,
 				848D3FBA1F5526DF0043C9BD /* ErrorHandler.m in Sources */,
 				84D1C5CD1F6CC9DC00B85B2C /* ActModel.m in Sources */,
-				84D1C59D1F6CC4D800B85B2C /* SettingTableViewCell.m in Sources */,
 				84D1C5C91F6CC4E100B85B2C /* Annotation.m in Sources */,
 				848D3F441F5525310043C9BD /* main.m in Sources */,
 				848D3FB61F5526DF0043C9BD /* openssl_wrapper.m in Sources */,
@@ -905,7 +897,7 @@
 				84D1C5D01F6CCB7000B85B2C /* ActDetailViewController.m in Sources */,
 				84D1C5EA1F6F6BBF00B85B2C /* GeneViewController.m in Sources */,
 				84D1C5951F6CC4D800B85B2C /* FindTableViewCell.m in Sources */,
-				840140751F750F7F0080DFBA /* ActivityTableViewCell.m in Sources */,
+				8401407B1F751A860080DFBA /* ActivityTableViewCell.m in Sources */,
 				8435313D1F615F5900F8494F /* TAAnimatedDotView.m in Sources */,
 				84D1C5FC1F70F37700B85B2C /* OrderModel.m in Sources */,
 				848D3FC31F5526DF0043C9BD /* Utilities.m in Sources */,
